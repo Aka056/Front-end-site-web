@@ -15,3 +15,5 @@ Composants réutilisables et bien structurés
 Design responsive adapté à tous les écrans
 
 Facile à intégrer avec un back-end personnalisé
+
+##Pour un exemple visuel veuillez consulter les fichiers mp4
