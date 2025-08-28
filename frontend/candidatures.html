@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes Candidatures</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<body>
+
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="images/internlogo.png" alt="InternMatch Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="offres.html">Offres</a></li>
+            <li><a href="candidatures.html">Candidatures</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            
+            
+<!-- Entreprises -->
+<li class="dropdown">
+<button class="dropdown-btn" onclick="toggleEntreprisesDropdown(event)">
+  Entreprises <i class="fas fa-chevron-down"></i>
+</button>
+<div class="dropdown-menu" id="entreprisesMenu">
+  <a href="creer-entreprise.html">Créer une entreprise</a>
+  <a href="modifier-entreprise.html">Modifier une entreprise</a>
+  <a href="supprimer-entreprise.html">Supprimer une entreprise</a>
+  <a href="evaluer-entreprise.html">Evaluer une entreprise</a>
+</div>
+</li>
+
+<!-- Pilotes -->
+<li class="dropdown">
+<button class="dropdown-btn" onclick="togglePilotesDropdown(event)">
+  Pilotes <i class="fas fa-chevron-down"></i>
+</button>
+<div class="dropdown-menu" id="pilotesMenu">
+  <a href="rechercheretafficherpilote.html">Rechercher un compte pilote</a>
+    <a href="creerpilote.html">Créer un compte pilote</a>
+    <a href="modifierpilote.html">Modifier un compte pilote</a>
+    <a href="supprimerpilote.html">Supprimer un compte pilote</a>
+</div>
+</li>
+
+
+            <li class="icon"><a href="connexion.html"><img src="images/icon.png" alt="Profil"></a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+  <div class="candidatures-container">
+    <h2>Mes candidatures</h2>
+
+
+    <div class="candidature-card">
+        <div class="candidature-header">
+            <h3>EDF</h3>
+        <span class="status envoyee">Envoyée</span>
+        </div>
+        <div class="details">
+            <p><strong>Poste :</strong> Développeuse Python - Interface Graphique</p>
+            <p><strong>Lieu :</strong> Chatou (78)</p>
+            <p><strong>Date :</strong> Envoyée le 22 mars</p>
+            <p><strong>Éléments :</strong> CV envoyé, message envoyé</p>
+        </div>
+        </div>
+
+    <div class="candidature-card">
+      <div class="candidature-header">
+        <h3>BPCE Solutions Informatiques</h3>
+        <span class="status entretien">Entretien en cours</span>
+      </div>
+      <div class="details">
+        <p><strong>Poste :</strong> Développeur Fullstack PHP - JS</p>
+        <p><strong>Lieu :</strong> Paris (75)</p>
+        <p><strong>Date :</strong> Entretien prévu le 28 mars</p>
+        <p><strong>Éléments :</strong> CV envoyé</p>
+      </div>
+    </div>
+
+    <div class="candidature-card">
+      <div class="candidature-header">
+        <h3>Fnac Darty</h3>
+        <span class="status refusee">Refusée</span>
+      </div>
+      <div class="details">
+        <p><strong>Poste :</strong> Assistant Développeur Full Stack</p>
+        <p><strong>Lieu :</strong> Paris (75)</p>
+        <p><strong>Date :</strong> Refus reçue le 20 mars</p>
+        <p><strong>Éléments :</strong> CV envoyé, pas de retour</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="images/logoblanc.png" alt="InternMatch">
+        </div>
+        <div class="footer-links">
+            <h3>À propos</h3>
+            <ul>
+                <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                <li><a href="mentionslegales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-apps">
+            <h3>Retrouvez nous sur</h3>
+            <img src="images/app.png" alt="Applications">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 InternMatch - Tous droits réservés</p>
+        <div class="legal-links">
+            <a href="#">Mentions légales</a> | 
+            <a href="#">CGU</a> | 
+            <a href="#">Politique de confidentialité</a> | 
+            <a href="#">Gestion des cookies</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modifier un Pilote | InternMatch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style2.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="images/internlogo.png" alt="InternMatch">
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="offres.html">Offres</a>
+      <a href="candidatures.html">Candidatures</a>
+      <a href="entreprises.html">Entreprises</a>
+      <a href="pilotes.html">Pilotes</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Modifier un pilote de promotion</h1>
+
+    <div class="form-group">
+      <label for="piloteNom">Nom du Pilote :</label>
+      <input type="text" id="piloteNom" placeholder="Ex : Jean Dupont">
+    </div>
+
+    <div class="form-group">
+      <label for="piloteEmail">Email :</label>
+      <input type="email" id="piloteEmail" placeholder="Ex : jean.dupont@email.com">
+    </div>
+
+    <div class="form-group">
+      <label for="piloteTel">Téléphone :</label>
+      <input type="tel" id="piloteTel" placeholder="Ex : 0601020304">
+    </div>
+
+    <div class="form-group">
+      <label for="piloteFormation">Promotion :</label>
+      <input type="text" id="piloteFormation" placeholder="Ex : CPI A1, CPI A2, A3">
+    </div>
+
+    <div class="form-group">
+      <label for="piloteCampus">Campus :</label>
+      <input type="text" id="piloteCampus" placeholder="Ex : Nanterre, Orléans...">
+    </div>
+
+    <button class="btn" onclick="updatePilote()">Mettre à jour</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 InternMatch - Tous droits réservés</p>
+    <a href="#">Mentions légales</a> | 
+    <a href="#">CGU</a> | 
+    <a href="#">Politique de confidentialité</a> | 
+    <a href="#">Gestion des cookies</a>
+  </footer>
+</body>
+</html>
+
+  

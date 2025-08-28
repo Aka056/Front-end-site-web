@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternMatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/internlogo.png" alt="InternMatch Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="offres.html">Offres</a></li>
+                <li><a href="candidatures.html">Candidatures</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                
+                
+   <!-- Entreprises -->
+    <li class="dropdown">
+    <button class="dropdown-btn" onclick="toggleEntreprisesDropdown(event)">
+      Entreprises <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="dropdown-menu" id="entreprisesMenu">
+      <a href="creer-entreprise.html">Créer une entreprise</a>
+      <a href="modifier-entreprise.html">Modifier une entreprise</a>
+      <a href="supprimer-entreprise.html">Supprimer une entreprise</a>
+      <a href="evaluer-entreprise.html">Evaluer une entreprise</a>
+    </div>
+  </li>
+  
+  <!-- Pilotes -->
+  <li class="dropdown">
+    <button class="dropdown-btn" onclick="togglePilotesDropdown(event)">
+      Pilotes <i class="fas fa-chevron-down"></i>
+    </button>
+    <div class="dropdown-menu" id="pilotesMenu">
+      <a href="rechercheretafficherpilote.html">Rechercher un compte pilote</a>
+        <a href="creerpilote.html">Créer un compte pilote</a>
+        <a href="modifierpilote.html">Modifier un compte pilote</a>
+        <a href="supprimerpilote.html">Supprimer un compte pilote</a>
+    </div>
+  </li>
+  
+
+                <li class="icon"><a href="connexion.html"><img src="images/icon.png" alt="Profil"></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <section id="wishlist">
+            <h2>Wishlist</h2>
+            <ul class="wishlist-items">
+                <li>
+                <h3>Développeur Web Front-End</h3>
+                <p><strong>Entreprise :</strong> TechCorp</p>
+                <button>Voir l'offre</button>
+                </li>
+                <li>
+                    <h3>Data Analyst</h3>
+                    <p><strong>Entreprise :</strong> DataVision</p>
+                    <button>Voir l'offre</button>
+                  </li>
+                </ul>
+            </section>   
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logoblanc.png" alt="InternMatch">
+            </div>
+            <div class="footer-links">
+                <h3>À propos</h3>
+                <ul>
+                    <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                    <li><a href="mentionslegales.html">Mentions légales</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-apps">
+                <h3>Retrouvez nous sur</h3>
+                <img src="images/app.png" alt="Applications">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 InternMatch - Tous droits réservés</p>
+            <div class="legal-links">
+                <a href="#">Mentions légales</a> | 
+                <a href="#">CGU</a> | 
+                <a href="#">Politique de confidentialité</a> | 
+                <a href="#">Gestion des cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

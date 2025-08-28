@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - InternMatch</title>
+</head>
+<body>
+  <h1>Contactez-nous</h1>
+
+  <p>
+    Une question ? Une suggestion ? N'hésitez pas à nous contacter. Nous serons ravis de vous répondre dans les plus brefs délais.
+  </p>
+
+  <h2>Par e-mail</h2>
+  <p>
+    contact@internmatch.fr
+  </p>
+
+  <h2>Par courrier</h2>
+  <p>
+    InternMatch<br>
+    CESI Nanterre<br>
+    93 Boulevard de la Seine<br>
+    92000 Nanterre, France
+  </p>
+
+  <h2>Formulaire de contact</h2>
+  <form action="mailto:contact@internmatch.fr" method="post" enctype="text/plain">
+    <label for="name">Nom :</label><br>
+    <input type="text" id="name" name="Nom" required><br><br>
+
+    <label for="email">Adresse e-mail :</label><br>
+    <input type="email" id="email" name="Email" required><br><br>
+
+    <label for="message">Message :</label><br>
+    <textarea id="message" name="Message" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Annuler">
+  </form>
+</body>
+</html>
